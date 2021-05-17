@@ -11,3 +11,9 @@ $blue: #476BFF;
 $regular: 400;
 $medium: 500;
 $bold: 700;
+
+//shadow mixin
+@mixin shadow {
+  -webkit-box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.07); 
+  box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.07);
+}
