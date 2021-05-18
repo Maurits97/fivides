@@ -1,7 +1,10 @@
+import styles from '../styles/Footer.module.scss'
+
 const Footer = () => {
   return ( 
-    <div className="footer">
-      <p>Copyright 2021 Fivides</p>
+      <div className={styles.footer}>
+      <img className={styles.logo} src="/img/Fivides_Logo_Luc_Brouwer.png" />
+      <div className={styles.footer__circle}></div>
     </div>
    );
 }

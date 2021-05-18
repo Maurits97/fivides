@@ -7,14 +7,15 @@ $green: #42DC4F;
 $yellow: #FFCC47;
 $blue: #476BFF;
 
-$yellow-hover: #FAC746;
+$yellow-hover: #FFBD12;
 
 //font weights
+$light: 300;
 $regular: 400;
 $medium: 500;
 $bold: 700;
 
-//shadow mixin
+//Mixins
 @mixin shadow {
   -webkit-box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.07); 
   box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.07);
