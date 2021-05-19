@@ -15,6 +15,10 @@
   align-items: center;
   margin-top: 300px;
 
+  @media screen and (max-width: $mobile-max) {
+    margin-top: 150px;
+  }
+
   .logo {
     margin-left: 30px;
     width: 80px;
@@ -29,6 +33,13 @@
     border-radius: 50%;
     background-color: $green;
     z-index: -1;
+
+    @media screen and (max-width: $mobile-max) {
+      width: 250px;
+      height: 250px;
+      right: -150px;
+
+    }
   }
 }
 
