@@ -7,11 +7,11 @@ const Navbar = () => {
   
   return ( 
     <nav className={styles.nav}>
-      <img className={styles.logo} src="/img/Fivides_Logo_Luc_Brouwer.png" />
+      <Link href="/"><img className={styles.logo} src="/img/Fivides_Logo_Luc_Brouwer.png" /></Link>
 
       <div className={styles.nav__items}>
         <Link href="/"><a className={router.pathname == "/" ? styles.nav__active : ""}>Home</a></Link>
-        <Link href="/about"><a className={router.pathname == "/about" ? styles.nav__active : ""}>Actiepad</a></Link>
+        <Link href="/actiepad"><a className={router.pathname == "/actiepad" ? styles.nav__active : ""}>Actiepad</a></Link>
         <Link href="/"><a>Analysemodel</a></Link>
         <Link href="/"><a>Rapportage</a></Link>
         <Link href="/"><a>Over ons</a></Link>

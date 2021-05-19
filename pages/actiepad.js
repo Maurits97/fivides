@@ -1,6 +1,4 @@
-
-
-const About = () => {
+const Actiepad = () => {
   return ( 
     <div className="main">
       <h1>Hello</h1>
@@ -8,4 +6,4 @@ const About = () => {
    );
 }
  
-export default About;
+export default Actiepad;
