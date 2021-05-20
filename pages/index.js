@@ -1,13 +1,11 @@
+import Head from '../components/Head'
+import Contact from '../components/contact'
 import ContentBlock from '../components/ContentBlock'
 
 export default function Home() {
   return (
     <div className="main">
-      <div className="head">
-        <h1 className="header">Fivides Actiepad Analyse</h1>
-        <p className="subtext line-height">Met een Actiepad Analyse van Fivides weet je hoe je van een jouw websitebezoekers klanten kunt maken.</p>
-        <div className="head__circle"></div>
-      </div>
+      <Head header="Fivides Actiepad Analyse" text="Met een Actiepad Analyse van Fivides weet je hoe je van een jouw websitebezoekers klanten kunt maken." />
 
       <div className="content">
         <div className="bg">
@@ -29,13 +27,7 @@ export default function Home() {
         </div>     
       </div>
 
-      <div className="contact">
-        <h3 className="contact__header">Nu met <span className="green">50%</span> introductiekorting </h3>
-        <p className="contact__text line-height">Ter introductie is de Fivides Actiepad Analyse, met een rapportage in power point, nu te bestellen met 50% korting. Je betaalt slechts €475 (excl. 21% BTW) in plaats van €950 (excl. 21% BTW). Binnen vijf werkdagen na aanvraag en betaling wordt de rapportage inclusief de power point toegestuurd.</p>
-        <h4 className="contact__subheader">Interesse?</h4>
-        <p className="contact__subtext line-height">Mail nu Luc Brouwer van Fivides om een Actiepad Analyse met 50% korting te bestellen.</p>
-        <a href="mailto:l.brouwer@fivides.nl" className="contact__email" target="_blank">l.brouwer@fivides.nl</a>
-      </div>  
+      <Contact />
     </div>
   )
 }

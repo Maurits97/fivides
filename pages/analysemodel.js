@@ -2,10 +2,10 @@ import Contact from '../components/contact'
 import ContentBlock from '../components/ContentBlock'
 import Head from '../components/Head'
 
-const Actiepad = () => {
+const Analysemodel = () => {
   return ( 
     <div className="main">
-      <Head tag="sub" header="Actiepad" text="Met een Actiepad Analyse van Fivides weet je hoe je van een jouw websitebezoekers klanten kunt maken."/>
+      <Head tag="sub" header="Analysemodel" text="Met een Actiepad Analyse van Fivides weet je hoe je van een jouw websitebezoekers klanten kunt maken."/>
 
       <div className="content">
         <div className="bg">
@@ -25,4 +25,4 @@ const Actiepad = () => {
    );
 }
  
-export default Actiepad;
+export default Analysemodel;
