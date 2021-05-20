@@ -41,9 +41,9 @@ const Navbar = () => {
         <div className={styles.mobile__nav__items}>
           <Link href="/"><a onClick={navClicked} className={router.pathname == "/" ? styles.items__active : ""}>Home</a></Link>
           <Link href="/actiepad"><a onClick={navClicked} className={router.pathname == "/actiepad" ? styles.items__active : ""}>Actiepad</a></Link>
-          <Link href="/"><a>Analysemodel</a></Link>
-          <Link href="/"><a>Rapportage</a></Link>
-          <Link href="/"><a>Over ons</a></Link>
+          <Link href="/"><a onClick={navClicked}>Analysemodel</a></Link>
+          <Link href="/"><a onClick={navClicked}>Rapportage</a></Link>
+          <Link href="/"><a onClick={navClicked}>Over ons</a></Link>
         </div>
       </div>
     </nav>

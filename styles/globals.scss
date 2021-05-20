@@ -48,6 +48,12 @@ h5 {
   margin: 80px auto 0 auto;
   min-height: 100vh;
 
+  @media screen and (min-width: $big-screen-min) {
+    max-width: 1200px;
+    margin-top: 120px;
+    position: relative;
+  }
+
   @media screen and (max-width: $tablet-max) {
     max-width: 80%;
   }
@@ -68,6 +74,11 @@ h5 {
       font-weight: $bold;
       line-height: 100px;
 
+      @media screen and (min-width: $big-screen-min) {
+        font-size: 100px;
+        line-height: 110px;
+      }
+
       @media screen and (max-width: $mobile-max) {
         font-size: 11vw;
         line-height: 13vw;
@@ -77,6 +88,10 @@ h5 {
     .subtext {
       margin-top: 30px;
       font-size: 15px;
+
+      @media screen and (min-width: $big-screen-min) {
+        font-size: 17px;
+      }
 
       @media screen and (max-width: $mobile-max) {
         margin-top: 20px;
@@ -93,6 +108,11 @@ h5 {
       border-radius: 50%;
       background-color: $green;
       z-index: 2;
+
+      @media screen and (min-width: $big-screen-min) {
+        top: -80px;
+        right: -200px;
+      }
 
       @media screen and (max-width: $tablet-max) {
         top: 85px;
@@ -243,7 +263,7 @@ h5 {
       word-wrap: break-word;
 
       @media screen and (max-width: $tablet-max) {
-        font-size: 60px;
+        font-size: 50px;
       }
 
       @media screen and (max-width: $mobile-max) {
