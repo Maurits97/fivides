@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
   }
 
   return (
-    <>
+    <div className="overflow">
       <Head>
         <title>{getTitle()}</title>
         <meta name="description" content="Description Fivides."/>
@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
       <Layout>
         <Component {...pageProps} />
       </Layout>
-    </>
+    </div>
   )
 }
 
