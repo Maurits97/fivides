@@ -21,7 +21,7 @@ const Navbar = () => {
   
   return ( 
     <nav className={styles.nav}>
-      <Link href="/"><img className={styles.logo} src="/img/Fivides_Logo_Luc_Brouwer.png" /></Link>
+      <Link href="/"><img className={styles.logo} src="/img/Fivides_Logo_Luc_Brouwer.png" alt="logo"/></Link>
 
       <div className={styles.nav__items}>
         <Link href="/"><a className={router.pathname == "/" ? styles.nav__active : ""}>Home</a></Link>
