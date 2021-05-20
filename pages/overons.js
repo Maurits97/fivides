@@ -20,7 +20,7 @@ const OverOns = () => {
         </div>     
       </div>
 
-      <Contact />
+   
     </div>
    );
 }
