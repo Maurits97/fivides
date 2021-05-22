@@ -66,10 +66,10 @@ h5 {
   }
 
   .head {
-    max-width: 500px;
+    max-width: 60%;
 
     @media screen and (max-width: $mobile-max) {
-      max-width: 300px;
+      max-width: 90%;
     }
   
     .header {
@@ -87,20 +87,37 @@ h5 {
         line-height: 13vw;
       }
     }
+    
+    //adjusted font-size for sub pages
+    .header__subpage {
+      font-size: 70px;
+
+      @media screen and (min-width: $big-screen-min) {
+        font-size: 80px;
+      }
+
+      @media screen and (max-width: $mobile-max) {
+        font-size: 10vw;
+      }
+    }
   
     .subtext {
-      margin-top: 30px;
       font-size: 15px;
+      margin-top: 30px;
 
       @media screen and (min-width: $big-screen-min) {
         font-size: 17px;
       }
 
       @media screen and (max-width: $mobile-max) {
-        margin-top: 20px;
         font-size: 14px;
+        margin-top: 20px;
         width: 90%;
       }
+    }
+
+    .subtext__subpage {
+      margin-top: 0;
     }
   
     .head__circle {
@@ -132,6 +149,7 @@ h5 {
         top: 155px;
       }
     }
+
     .sub__circle {
       width: 230px;
       height: 230px;
@@ -154,19 +172,19 @@ h5 {
         width: 20vw;
         height: 20vw;
         right: -40px;
-        top: 120px;
+        top: 130px;
       }
 
     }
   }
   
   .content {
-    margin-top: 100px;
+    margin-top: 30px;
     position: relative;
   
     .content__wrapper {
       position: relative;
-      padding: 40px 0 50px 0;
+      padding: 10px 0 50px 0;
   
       .content__container {
         margin: 50px auto;
@@ -178,7 +196,7 @@ h5 {
           font-weight: $bold;
 
           @media screen and (max-width: $mobile-max) {
-            font-size: 30px;
+            font-size: 25px;
           }
         }
   
@@ -249,7 +267,7 @@ h5 {
           font-size: 45px;
 
           @media screen and (max-width: $mobile-max) {
-            font-size: 30px;
+            font-size: 25px;
           }
         }
   
@@ -277,6 +295,14 @@ h5 {
         height: 100%;
         background-color: $yellow;
       }
+    }
+  }
+
+  .content__mainpage {
+    margin-top: 100px;
+
+    .content__wrapper__mainpage {
+      padding: 40px 0 50px 0;
     }
   }
 

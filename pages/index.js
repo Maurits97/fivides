@@ -5,16 +5,16 @@ import ContentBlock from '../components/ContentBlock'
 export default function Home() {
   return (
     <div className="main">
-      <Head header="Fivides Actiepad Analyse" text="Met een Actiepad Analyse van Fivides weet je hoe je van een jouw websitebezoekers klanten kunt maken." />
+      <Head tag="main" header="Fivides Actiepad Analyse" text="Met een Actiepad Analyse van Fivides weet je hoe je van een jouw websitebezoekers klanten kunt maken." />
 
-      <div className="content">
+      <div className="content content__mainpage">
         <div className="bg">
           <div className="bg__line"></div>
           <div className="bg__line"></div>
           <div className="bg__line"></div>
         </div>
 
-        <div className="content__wrapper">
+        <div className="content__wrapper content__wrapper__mainpage">
           <ContentBlock tag="default" header="Maak van je website bezoekers klanten" text="Website bezoekers worden klanten als de informatie op een website vertrouwen opwekt en tot actie aanzet. Door betrouwbare informatie in de juiste volgorde aan te reiken wordt een pad naar de gewenste actie gelegd. Fivides noemt dat het actiepad. Een Actiepad Analyse van Fivides maakt zichtbaar waar de zwakke plekken in de informatie op de actiepaden van jouw website zitten. Daarmee kun je snel aan de slag om de informatie op jouw actiepaden te verbeteren en meer klanten te krijgen."/>
 
           <ContentBlock tag="review" name="R. Dulmers, eigenaar Scholen met Succes" text={`“Zeer informatieve rapportage inclusief power point van Fivides met heldere, consequent doorgevoerde analyse en veel zaken om op strategisch/tactisch niveau over na te denken met het team. Op operationeel vlak veel concrete punten die op korte termijn kunnen worden aangepakt om effectiviteit, aantrekkelijkheid en actiegerichtheid van de website versterken.”`}/>
