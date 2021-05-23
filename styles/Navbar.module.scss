@@ -66,6 +66,7 @@
     background-color: $green;
     visibility: hidden;
     transition: all 0.2s linear;
+    overflow-x: hidden;
 
     .mobile__nav__items {
       display: flex;

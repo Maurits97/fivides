@@ -5,8 +5,10 @@ const Layout = ({ children }) => {
   return ( 
     <div>
       <Navbar />
-      { children }
-      <Footer />
+      <div className="overflow">
+        { children }
+        <Footer />
+      </div>
     </div>
    )
 }
