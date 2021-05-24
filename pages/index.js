@@ -19,7 +19,7 @@ export default function Home() {
 
           <ContentBlock tag="review" name="R. Dulmers, eigenaar Scholen met Succes" text={`“Zeer informatieve rapportage inclusief power point van Fivides met heldere, consequent doorgevoerde analyse en veel zaken om op strategisch/tactisch niveau over na te denken met het team. Op operationeel vlak veel concrete punten die op korte termijn kunnen worden aangepakt om effectiviteit, aantrekkelijkheid en actiegerichtheid van de website versterken.”`}/>
 
-          <ContentBlock tag="block" header="Vertrouwen is cruciaal" text="Er is veel wetenschappelijk bewijs dat vertrouwen in een website cruciaal is om gewenst gedrag bij website bezoekers te stimuleren. Daarvoor moet die informatie relevant, consistent, duidelijk en beargumenteerd zijn." link="/"/>
+          <ContentBlock tag="block" header="Vertrouwen is cruciaal" text="Er is veel wetenschappelijk bewijs dat vertrouwen in een website cruciaal is om gewenst gedrag bij website bezoekers te stimuleren. Daarvoor moet die informatie relevant, consistent, duidelijk en beargumenteerd zijn." link="/actiepad"/>
 
           <ContentBlock tag="block" header="Leid je website bezoeker naar de actie" text="Om een bezoeker op je website naar een actie te leiden moet de informatie niet alleen betrouwbaar zijn, maar ook richting geven aan de gedachten van die bezoeker.  Dat doe je door stap voor stap informatie te verstrekken die aansluit op de vragen van de website bezoeker. Elk stukje informatie dat een bezoeker tegenkomt zal namelijk weer nieuwe vragen oproepen. Door al die vragen te beantwoorden leid je de bezoeker naar de laatste vraag waarop de actie kan volgen. Zo een laatste vraag luidt dan: “Wat moet ik doen om nu een bestelling te plaatsen”." link="/"/>
 
