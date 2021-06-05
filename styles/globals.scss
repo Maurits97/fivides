@@ -185,6 +185,24 @@ h5 {
     .content__wrapper {
       position: relative;
       padding: 10px 0 50px 0;
+
+      .image-container {
+
+        background-color: $white;
+        width: 80%;
+        display: block; 
+        margin: 0 auto;
+
+        .image {
+          width: 100%;
+        }
+
+        .image-text {
+          margin-top: 30px;
+          font-weight: $medium;
+          font-style: italic;
+        }
+      }
   
       .content__container {
         margin: 50px auto;
@@ -356,18 +374,17 @@ h5 {
 
     .contact__subtext {
       font-size: 17px;
+      margin-top: 20px;
 
       @media screen and (max-width: $mobile-max) {
         font-size: 15px;
       }
     }
-
-    .contact__email {
-      color: $black;
-      text-decoration: underline;
-      font-weight: $bold;
-      display: block;
-      margin-top: 5px;
-    }
   }
+}
+
+.contact__email {
+  color: $black;
+  text-decoration: underline;
+  font-weight: $bold;
 }

@@ -6,6 +6,10 @@ const ContentBlock = (props) => {
       <div className="content__container">
         <h2 className="content__header">{props.header}</h2>
         <p className="content__text line-height">{props.text}</p>
+        <p className="content__text line-height">{props.textTwo}</p>
+        <p className="content__text line-height">{props.textThree}</p>
+        <p className="content__text line-height">{props.textFour}</p>
+        <p className="content__text line-height">{props.textFive}</p>
       </div>
     )
   } else if (props.tag === 'block') {
