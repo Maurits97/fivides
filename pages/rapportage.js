@@ -20,8 +20,6 @@ const Rapportage = () => {
           <ContentBlock tag="default" header="Helder overzicht van verbeterpunten" text="De rapportage van de Fivides Actiepad Analyse geeft per geanalyseerde webpagina een helder overzicht van alle informatie-elementen die tekort schieten op de eigenschappen: relevantie, consistentie, duidelijkheid en argumentatie. Dat gebeurt ten eerste voor de homepage. Daarna worden de webpagina’s van één actiepad naar keuze geanalyseerd. Het is het pad dat naar een door de websitebezoeker te ondernemen actie leidt zoals een bestelling of een aanvraag voor informatie. In de rapportage staan per webpagina, voor elke van de vier eigenschappen, screenshots met een toelichting op de tekortkomingen. Deze tekortkomingen worden aangevuld met adviezen."/>
           
           <ContentBlock tag="default" header="Duidelijke adviezen voor verbetering" text="De analyses van de vier eigenschappen van informatie op een webpagina worden aangevuld met adviezen voor verbetering. Die verbetering is enerzijds gericht op verbetering van de bestaande  informatie op het de homepage en het gekozen actiepad. Die verbetering kan met tekst te maken hebben, maar ook met afbeeldingen. Daarnaast worden adviezen verstrekt om de informatie anders te structureren of om informatie toe te voegen of juist weg te laten. "/>
-
-          <ContentBlock tag="block" header="Vertrouwen is cruciaal" text="Er is veel wetenschappelijk bewijs dat vertrouwen in een website cruciaal is om gewenst gedrag bij website bezoekers te stimuleren. Daarvoor moet die informatie relevant, consistent, duidelijk en beargumenteerd zijn." link="/"/>
         </div>     
       </div>
 

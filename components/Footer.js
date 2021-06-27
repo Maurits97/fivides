@@ -1,9 +1,13 @@
 import styles from '../styles/Footer.module.scss'
 
 const Footer = () => {
+  const date= new Date();
+  const year = date.getFullYear();
+
   return ( 
     <div className={styles.footer}>
-      <img className={styles.logo} src="/img/Fivides_Logo_Luc_Brouwer.png" alt="logo"/>
+      <p>© {year} Fivides</p>
+      <p className={styles.footer__contact}>Contact: <a href="mailto:l.brouwer@fivides.nl" className="contact__email" target="_blank">info@fivides.nl</a></p>
       <div className={styles.footer__circle}></div>
     </div>
    );

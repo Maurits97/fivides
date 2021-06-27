@@ -5,6 +5,7 @@
 
 .footer {
   @include shadow;
+  padding-left: 30px;
 
   position: relative;
   width: 100%;
@@ -23,9 +24,15 @@
     margin-top: 150px;
   }
 
-  .logo {
-    margin-left: 30px;
-    width: 80px;
+  // .logo {
+  //   margin-left: 30px;
+  //   width: 80px;
+  // }
+
+  .footer__contact {
+    position: absolute;
+    top: 40px;
+    right: 60px;
   }
 
   .footer__circle {
