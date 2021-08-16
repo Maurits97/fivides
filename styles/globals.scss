@@ -72,11 +72,16 @@ h5,
     @media screen and (max-width: $mobile-max) {
       max-width: 90%;
     }
+
+    @media screen and (min-width: $big-screen-min) {
+      max-width: 70%;
+    }
   
     .header {
       font-size: 90px;
       font-weight: $bold;
       line-height: 100px;
+      width: 70%;
 
       @media screen and (min-width: $big-screen-min) {
         font-size: 100px;
@@ -115,9 +120,11 @@ h5,
       margin-bottom: 20px;
       font-size: 60px;
       line-height: 80px;
+      width: auto;
 
       @media screen and (min-width: $big-screen-min) {
         font-size: 80px;
+        line-height: 100px;
       }
 
       @media screen and (max-width: $mobile-max) {
