@@ -13,9 +13,8 @@ export default function Home() {
           <div className="bg__line"></div>
           <div className="bg__line"></div>
         </div>
-
         <div className="content__wrapper content__wrapper__mainpage">
-          <ContentBlock tag="default" header="Van websitebezoeker naar klant" 
+          <ContentBlock key={0} tag="default" header="Van websitebezoeker naar klant" 
           text={["Websitebezoekers worden klanten als de informatie op een website de bezoeker naar de gewenste actie leidt en vertrouwen opwekt. Door betrouwbare informatie in de juiste volgorde aan te reiken wordt een pad naar de gewenste actie gelegd. Fivides noemt dat het actiepad. Een ", <i>Fivides Actiepad Analyse</i>, " maakt de zwakke plekken op de actiepaden van jouw website zichtbaar. Daarmee kun je snel aan de slag om de informatie op jouw actiepaden te verbeteren en meer klanten te krijgen."]} />
 
           <ContentBlock tag="review" name="R. Dulmers, eigenaar Scholen met Succes" text={`“Zeer informatieve rapportage van Fivides met heldere, consequent doorgevoerde analyse en veel zaken om op strategisch/tactisch niveau over na te denken met het team. Op operationeel vlak veel concrete punten die op korte termijn kunnen worden aangepakt om effectiviteit, aantrekkelijkheid en actiegerichtheid van de website te versterken.”`}/>

@@ -25,7 +25,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+.header__span {
   font-family: 'Red Hat Text', sans-serif;
 }
 
@@ -52,7 +53,7 @@ h5 {
   min-height: 100vh;
 
   @media screen and (min-width: $big-screen-min) {
-    max-width: 1200px;
+    max-width: 1120px;
     margin-top: 120px;
     position: relative;
   }
@@ -66,7 +67,7 @@ h5 {
   }
 
   .head {
-    max-width: 60%;
+    // max-width: 60%;
 
     @media screen and (max-width: $mobile-max) {
       max-width: 90%;
@@ -87,10 +88,33 @@ h5 {
         line-height: 13vw;
       }
     }
+
+    .header__span {
+      position: relative;
+      display: inline-block;
+      margin-bottom: 10px;
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        border-radius: 1.5px;
+        background-color: $green;
+      }
+
+      @media screen and (max-width: $mobile-max) {
+        margin-bottom: 15px;
+      }
+    }
     
     //adjusted font-size for sub pages
     .header__subpage {
-      font-size: 70px;
+      margin-bottom: 20px;
+      font-size: 60px;
+      line-height: 80px;
 
       @media screen and (min-width: $big-screen-min) {
         font-size: 80px;
@@ -98,16 +122,13 @@ h5 {
 
       @media screen and (max-width: $mobile-max) {
         font-size: 10vw;
+        line-height: 13vw;
       }
     }
   
     .subtext {
-      font-size: 15px;
+      font-size: 18px;
       margin-top: 30px;
-
-      @media screen and (min-width: $big-screen-min) {
-        font-size: 17px;
-      }
 
       @media screen and (max-width: $mobile-max) {
         font-size: 14px;
@@ -219,7 +240,7 @@ h5 {
         }
   
         .content__text {
-          margin-top: 15px;
+          margin-top: 25px;
           font-size: 17px;
           width: 80%;
 
