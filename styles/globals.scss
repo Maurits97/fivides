@@ -209,6 +209,10 @@ h5,
   .content {
     margin-top: 30px;
     position: relative;
+
+    .green {
+      color: $green;
+    }
   
     .content__wrapper {
       position: relative;
@@ -221,12 +225,22 @@ h5,
         margin: 0 auto;
         padding: 50px 0;
 
+        &--profile {
+          display: flex;
+          justify-content: center;
+        }
+
         .image {
           width: 100%;
         }
 
         .image--profile {
+          width: 80%;
           border-radius: .6rem;
+
+          @media screen and (max-width: $mobile-max) {
+            width: 100%;
+          }
         }
 
         .image-text {
@@ -240,6 +254,34 @@ h5,
         margin: 50px auto;
         background-color: $white;
         padding: 50px 0;
+
+        .ordered-list {
+          font-weight: 600;
+          margin-left: 20px;
+
+          li {
+            list-style-type: decimal;
+            line-height: 25px;
+          }
+        }
+
+        .unordered-list {
+          margin-left: 20px;
+
+          li {
+            list-style-type: disc;
+            line-height: 25px;
+          }
+        }
+
+        .link--default {
+          color: $blue;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
   
         .content__header {
           font-size: 50px;
@@ -377,10 +419,6 @@ h5,
 
       @media screen and (max-width: $mobile-max) {
         font-size: 30px;
-      }
-
-      .green {
-        color: $green;
       }
     }
 

@@ -1,3 +1,5 @@
+// NODE: DEPRECATED, NOT LONGER IN USE, SEE CONTENTBLOCKWRAPPER
+
 import Link from 'next/link'
 
 const ContentBlock = (props) => {

@@ -25,9 +25,9 @@ const Navbar = () => {
 
       <div className={styles.nav__items}>
         <Link href="/"><a className={router.pathname == "/" ? styles.nav__active : ""}>Home</a></Link>
-        <Link href="/actiepad"><a className={router.pathname == "/actiepad" ? styles.nav__active : ""}>Actiepad</a></Link>
-        <Link href="/analysemodel"><a className={router.pathname == "/analysemodel" ? styles.nav__active : ""}>Analysemodel</a></Link>
-        <Link href="/rapportage"><a className={router.pathname == "/rapportage" ? styles.nav__active : ""}>Rapportage</a></Link>
+        <Link href="/websitecopy"><a className={router.pathname == "/websitecopy" ? styles.nav__active : ""}>Website copy</a></Link>
+        <Link href="/websiteanalyse"><a className={router.pathname == "/websiteanalyse" ? styles.nav__active : ""}>Website analyse</a></Link>
+        <Link href="/tarieven"><a className={router.pathname == "/tarieven" ? styles.nav__active : ""}>Tarieven</a></Link>
         <Link href="https://blog.fivides.nl">Blog</Link>
         <Link href="/overons"><a className={router.pathname == "/overons" ? styles.nav__active : ""}>Over ons</a></Link>
       </div>
@@ -41,9 +41,9 @@ const Navbar = () => {
 
         <div className={styles.mobile__nav__items}>
           <Link href="/"><a onClick={navClicked} className={router.pathname == "/" ? styles.items__active : ""}>Home</a></Link>
-          <Link href="/actiepad"><a onClick={navClicked} className={router.pathname == "/actiepad" ? styles.items__active : ""}>Actiepad</a></Link>
-          <Link href="/analysemodel"><a onClick={navClicked} className={router.pathname == "/analysemodel" ? styles.items__active : ""}>Analysemodel</a></Link>
-          <Link href="/rapportage"><a onClick={navClicked} className={router.pathname == "/rapportage" ? styles.items__active : ""}>Rapportage</a></Link>
+          <Link href="/websitecopy"><a onClick={navClicked} className={router.pathname == "/websitecopy" ? styles.items__active : ""}>Website copy</a></Link>
+          <Link href="/websiteanalyse"><a onClick={navClicked} className={router.pathname == "/websiteanalyse" ? styles.items__active : ""}>Website analyse</a></Link>
+          <Link href="/tarieven"><a onClick={navClicked} className={router.pathname == "/tarieven" ? styles.items__active : ""}>Tarieven</a></Link>
           <Link href="https://blog.fivides.nl">Blog</Link>
           <Link href="/overons"><a onClick={navClicked} className={router.pathname == "/overons" ? styles.items__active : ""}>Over ons</a></Link>
         </div>

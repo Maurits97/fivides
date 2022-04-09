@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>{getTitle()}</title>
-        <meta name="description" content="Description Fivides."/>
+        <meta name="description" content="Fivides"/>
         <meta name="keywords" content="trefwoord 1, trefwoord 2, trefwoord 3"/>
         <link rel="icon" type="image/svg+xml" href="/favicon.svg"></link>
         <link rel="alternate icon" href="/favicon.ico"></link>
