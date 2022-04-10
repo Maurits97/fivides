@@ -32,12 +32,12 @@ export default function Home() {
             <ContentBlockWrapper type='block'>
               <h2 className="content__header">Copy die vertrouwen creëert</h2>
               <p className="content__text line-height">Het design en het beeld van een website geeft de klant een eerste indruk. Die eerste indruk schept verwachtingen die de copy moet waarmaken. Die copy zal allereerst vertrouwen moeten creëren bij de klant. De copy moet dan aan vier eisen voldoen:</p>
-              <ol className='content__text ordered-list'>
+              <ul className='content__text unordered-list'>
                 <li>de copy is relevant</li>
                 <li>de copy is duidelijk</li>
                 <li>de copy is consistent</li>
                 <li>de copy is bevat argumenten</li>
-              </ol>
+              </ul>
               <p className='content__text line-height'>Het is volstrekt logisch dat vertrouwen in je website belangrijk is. Waarom zou je immers op een website iets bestellen of aanvragen als je het niet vertrouwd? Als de copy op de website geen vertrouwen realiseert, schaadt het je reputatie. Dat gebeurt dan 24 uur per dag, zeven dagen per week. Het blog <a className='link--default' href='https://blog.fivides.nl/vertrouwen-belangrijkste-succesfactor-website'>‘Vertrouwen als belangrijkste succesfactor voor een commerciële website’</a> gaat dieper in op de aspecten die vertrouwen kunnen creëren.</p>
               <Link href='/analysemodel'><button className="content__button">Lees meer</button></Link>
             </ContentBlockWrapper>

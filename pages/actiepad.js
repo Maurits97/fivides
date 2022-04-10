@@ -1,5 +1,3 @@
-import Contact from '../components/contact'
-import ContentBlock from '../components/ContentBlock'
 import Header from '../components/HeaderBlock'
 import Head from 'next/head';
 import ContentBlockWrapper from '../components/ContentBlockWrapper';
@@ -54,8 +52,6 @@ const Actiepad = () => {
             </ContentBlockWrapper>
           </div>     
         </div>
-
-        {/* <Contact /> */}
       </div>
     </>
    );

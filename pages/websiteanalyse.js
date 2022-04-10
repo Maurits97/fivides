@@ -51,7 +51,7 @@ const WebsiteAnalyse = () => {
 
             <ContentBlockWrapper>
               <h2 className="content__header">Tips en trics voor verbeteren van jouw website</h2>
-              <p className="content__text line-height">Fivides geeft je ook veel tips en trics over het verbeteren van je website. Zie de blogs (linken naar blog) van Luc Brouwer. Kijk ook eens op Frank Watching naar het artikel van Luc Brouwer van Fivides: <a className='link--default' href='https://www.frankwatching.com/archive/2021/11/10/rendement-website-klein-bedrijf/'>Zo haal je als klein bedrijf meer rendement uit je website [5 stappen]</a>.</p>         
+              <p className="content__text line-height">Fivides geeft je ook veel tips en trics over het verbeteren van je website. Zie de <a className='link--default' href='https://blog.fivides.nl'>blogs</a> van Luc Brouwer. Kijk ook eens op Frank Watching naar het artikel van Luc Brouwer van Fivides: <a className='link--default' href='https://www.frankwatching.com/archive/2021/11/10/rendement-website-klein-bedrijf/'>Zo haal je als klein bedrijf meer rendement uit je website [5 stappen]</a>.</p>         
             </ContentBlockWrapper>
           </div>     
         </div>

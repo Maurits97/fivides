@@ -25,10 +25,6 @@ const OverOns = () => {
               </p>
             </ContentBlockWrapper>
 
-            <div className="image-container image-container--profile">
-              <img className="image image--profile" src="/img/profielfoto_Luc_Brouwer.jpg" alt="Profiel foto Luc Brouwer"/>
-            </div>
-
             <ContentBlockWrapper>
               <p className='content__text line-height'>De laatste jaren heb ik bijna honderd studenten aan een goedgekeurde scriptie geholpen. Het viel mij op dat ruwweg een derde van die scripties gericht was op het onderzoeken van slecht functionerende websites. Toen een vriend mij in 2021 vroeg om eens naar zijn website te kijken kwam opeens alles samen. Want voor een website gebruik je dezelfde logica die nodig is om van een berg informatie een goede tekst te maken. En om die website te laten scoren moet de copy duidelijk zijn afgestemd op de strategische marketingdoelen. Voeg daar wat schrijversvakmanschap aan toe om een tekst emotioneel te laden en je krijgt teksten die scoren. Toegankelijk teksten die overtuigen en motiveren om tot een actie te komen. Kortom copy die scoort. Dat is waar ik voor sta.
               </p>
@@ -37,6 +33,10 @@ const OverOns = () => {
 
               <p className='content__text line-height'>Mail: <a href="mailto:l.brouwer@fivides.nl" className="contact__email" target="_blank">l.brouwer@fivides.nl.</a></p>
             </ContentBlockWrapper>
+
+            <div className="image-container image-container--profile">
+              <img className="image image--profile" src="/img/profielfoto_Luc_Brouwer.jpg" alt="Profiel foto Luc Brouwer"/>
+            </div>
 
           </div>     
         </div>
