@@ -8,7 +8,6 @@ const Analysemodel = () => {
     <>
       <Head>
         <meta name="description" content="Fivides Actiepad"/>
-        <meta name="keywords" content="trefwoord 1, trefwoord 2, trefwoord 3"/>
       </Head>
       <div className="main">
         <Header tag="sub" page="Analysemodel" header="Vertrouwen is cruciaal" text="Het analyse model van Fivides bevat vier eigenschappen van informatie die gezamenlijk het vertrouwen in die informatie opwekken. Dat vertrouwen is cruciaal omdat een websitebezoeker geen actie zal uitvoeren als het vertrouwen in de website ontbreekt."/>

@@ -8,7 +8,6 @@ const Actiepad = () => {
     <>
       <Head>
         <meta name="description" content="Fivides Actiepad"/>
-        <meta name="keywords" content="trefwoord 1, trefwoord 2, trefwoord 3"/>
       </Head>
       <div className="main">
         <Header tag="sub" page="Website copy" header="Staat de copy al klaar?" text="De wireframes zijn goedgekeurd. De websitebouwer wil aan de slag. Maar waar is de copy?"/>

@@ -8,7 +8,6 @@ const WebsiteAnalyse = () => {
     <>
       <Head>
         <meta name="description" content="Fivides Actiepad"/>
-        <meta name="keywords" content="trefwoord 1, trefwoord 2, trefwoord 3"/>
       </Head>
       <div className="main">
         <Header tag="sub" page="Website analyse" header="Direct aan de slag om je website te verbeteren!" text="Met de resultaten van de Fivides Actiepad Analyse kun je direct aan de slag om je website zelf te verbeteren. Je krijgt gedetailleerde adviezen die ertoe leiden dat je website weer vertrouwen wekt en beter tot actie aanzet. "/>

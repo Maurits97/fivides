@@ -7,7 +7,6 @@ const OverOns = () => {
     <>
       <Head>
         <meta name="description" content="Fivides Actiepad"/>
-        <meta name="keywords" content="trefwoord 1, trefwoord 2, trefwoord 3"/>
       </Head>
       <div className="main">
         <Header tag="sub" page="Over ons" header="Koppie Copy" />

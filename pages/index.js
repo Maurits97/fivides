@@ -8,7 +8,6 @@ export default function Home() {
     <>
       <Head>
         <meta name="description" content="Fivides Actiepad"/>
-        <meta name="keywords" content="trefwoord 1, trefwoord 2, trefwoord 3"/>
       </Head>
       <div className="main">
         <Header tag="main" header="Knappe copy" text="Knappe copy versterkt het effect van een goed ontworpen website. Dat komt omdat knappe website copy vertrouwen creëert en aanzet tot actie. Daarmee overtuigt je website 24 uur per dag, 7 dagen per week. " />
